@@ -1,0 +1,104 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.card {
+    background-color: #006ffe;
+    width: 380px;
+    padding: 8px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.image {
+    width: 100%;
+    border-radius: 16px;
+    height: 240px;
+}
+
+.info {
+    background-color: white;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    padding: 16px;
+}
+
+.info h2 {
+    color: #007df1;
+}
+
+.info p {
+    color: #5a5a5a;
+}
+
+.time {
+    font-weight: 700;
+    font-size: 1.6rem;
+}
+
+.data {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.line {
+    height: 24px;
+    min-width: 1px;
+    background-color: rgba(90, 90, 90, 0.333)
+}
+
+.data_values {
+    font-weight: 600;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ago {
+    font-weight: 600;
+    color: #000;
+}
+
+.listed {
+    color: #000 !important;
+    margin-top: 16px;
+}
+
+.btn_container {
+    width: 100%;
+    display: flex;
+    gap: 8px;
+    margin-top: 16px;
+}
+
+.btn {
+    width: 50%;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}
+
+.btn {
+    background-color: red;
+}
+
+.btn:nth-child(2) {
+    background-color: #006ffe;
+}
