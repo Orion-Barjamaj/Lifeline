@@ -6,7 +6,7 @@ export default function Hero() {
   return (
     <section id="hero" className={style.container}>
       <video className={style.backgroundVideo} autoPlay loop muted playsInline>
-        <source src="/hero-background.mp4" type="video/mp4" />
+       {/* <source src={null} type="video/mp4" /> */}
       </video>
       <div className={style.overlay}></div>
       <div className={style.navShell}>
