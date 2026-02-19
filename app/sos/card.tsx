@@ -1,6 +1,14 @@
-import style from "./sos.module.css";
+"use client";
 
-export default function Card({ sos } : any) {
+import Link from "next/link";
+import style from "./sos.module.css";
+import type { SosAlertCard } from "./types";
+
+type CardProps = {
+  sos: SosAlertCard;
+};
+
+export default function Card({ sos }: CardProps) {
   return (
     <div className={style.card}>
       <div className={style.image}></div>
@@ -13,14 +21,16 @@ export default function Card({ sos } : any) {
           <div className={style.line}></div>
           <span className={style.data_values}>{sos.co2}</span>
           <div className={style.line}></div>
-          <span className={style.data_values}>10°C</span>
+          <span className={style.data_values}>{sos.humidity}</span>
         </div>
         <p className={style.listed}>
-          LISTED <span className={style.ago}>5 Hours Ago</span>
+          LISTED <span className={style.ago}>{sos.listedHoursAgo}</span>
         </p>
         <div className={style.btn_container}>
           <button className={style.btn}>Dismiss</button>
-          <button className={style.btn}>Open Maps</button>
+          <Link className={style.btn} href={sos.mapsCord} target="_blank">
+            Open Maps
+          </Link>
         </div>
       </div>
     </div>

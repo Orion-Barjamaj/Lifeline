@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import Navbar from "../../components/navbar";
 import style from "./hero.module.css";
@@ -35,8 +36,13 @@ export default function Hero() {
           <div className={style.orbit}></div>
           <div className={style.orbit}></div>
           <div className={style.imagePlaceholder}>
-            <span>Image Placeholder</span>
-            <p>Add your hero image here later</p>
+            <Image
+              src="/Lifeline.png"
+              alt="Lifeline platform preview"
+              fill
+              className={style.heroImage}
+              priority
+            />
           </div>
           <div className={style.metric}>
             <span>98%</span>

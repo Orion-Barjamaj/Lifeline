@@ -6,10 +6,10 @@ import "../sections.css";
 import Card from "./card";
 
 const productCards = [
-  { name: "Height", info: "190 Cm", tilt: "-5deg" },
-  { name: "Payload", info: "80 Kg", tilt: "4deg" },
+  { name: "Height", info: "12 Cm", tilt: "-5deg" },
+  { name: "Payload", info: "5 Kg", tilt: "4deg" },
   { name: "Runtime", info: "6 Hrs", tilt: "-4deg" },
-  { name: "Range", info: "4 Km", tilt: "6deg" },
+  { name: "Range", info: "30 m", tilt: "6deg" },
 ];
 
 export default function Product() {
