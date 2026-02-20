@@ -31,8 +31,7 @@ function getAgeMinutes(dateStr: string): number {
 }
 
 export default async function SOS() {
-  const cookieStore = cookies();
-  const supabase = createClient(cookieStore);
+  const supabase = await createClient();
 
   const { data: sosData } = await supabase
     .from("sos_alerts")
