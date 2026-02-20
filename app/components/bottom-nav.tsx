@@ -21,7 +21,7 @@ export default function BottomNav() {
         <Link href="/sos" className={style.link}>
           SOS
         </Link>
-        <a href="#footer" className={style.link}>
+        <a href="#contact" className={style.link}>
           Contact
         </a>
       </div>
@@ -51,7 +51,7 @@ export default function BottomNav() {
         <Link href="/sos" className={style.mobileLink} onClick={closeMenu}>
           SOS
         </Link>
-        <a href="#footer" className={style.mobileLink} onClick={closeMenu}>
+        <a href="#contact" className={style.mobileLink} onClick={closeMenu}>
           Contact
         </a>
       </div>

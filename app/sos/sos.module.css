@@ -119,22 +119,17 @@
 
 .card {
   background-color: #006ffe;
+  height: 480px;
+  background-size: cover;
+  background-position: center;
   width: min(100%, 380px);
   padding: 8px;
   border-radius: 16px;
   display: flex;
   flex-direction: column;
   gap: 16px;
+  justify-content: flex-end;
   box-shadow: rgba(99, 99, 99, 0.2) 0 2px 8px 0;
-}
-
-.image {
-  width: 100%;
-  border-radius: 16px;
-  height: 220px;
-  background:
-    linear-gradient(135deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0)),
-    linear-gradient(160deg, #0f5fd4, #3191ff);
 }
 
 .info {
