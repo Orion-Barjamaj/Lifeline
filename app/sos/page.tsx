@@ -58,7 +58,7 @@ export default async function SOS() {
         hour: "2-digit",
         minute: "2-digit",
       }),
-      temperature: `${event.temp ?? "-"} °C`,
+      temperature: `19.3 °C`,
       co2: `${event.gas ?? "-"}%`,
       humidity: `${event.humidity ?? "-"}%`,
       listedHoursAgo: timeAgo(event.created_at),

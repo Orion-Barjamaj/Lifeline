@@ -6,16 +6,16 @@ import "../sections.css";
 
 const contactItems = [
   {
-    label: "Dispatch Center",
-    value: "ops@lifeline-response.org",
+    label: "Email Address",
+    value: "lifeline.response@gmail.com",
   },
   {
-    label: "Emergency Hotline",
-    value: "+1 (800) 555-0149",
+    label: "Contact Number",
+    value: "+355 69 966 4628",
   },
   {
     label: "Field HQ",
-    value: "Pier 38, San Francisco, CA",
+    value: "Instituti `Harry T. Fultz`, Rruga Asim Vokshi, Tiranë 1000, Albania",
   },
 ];
 
